@@ -1,10 +1,10 @@
-
+{
   "producto" : "Prestamos",
   "empresa" : "PrestaMito",
   "formada" : 2022,
   "basededatos" : "DatosClientes",
   "active" : true,
-  var clientes = [
+  "clientes": [
     {
       "nombre" : "Juan",
       "apellido" : "Perez",
@@ -12,6 +12,7 @@
       "dni" : 33728569,
       "ingresos" : 80000,
       "provincia" : "Buenos Aires",
+      "exp": "Con el prestamo pude arreglar mi auto!",
       "mail" : "juanp1987@gmail.com"
 	
     },
@@ -23,6 +24,7 @@
       "dni" : 36548792,
       "ingresos" : 130000,
       "provincia" : "La Pampa",
+      "exp": "Me dieron lo que necesitaba sin problemas.",
       "mail" : "lunnita_forever@gmail.com"
 	
     },
@@ -34,6 +36,7 @@
       "dni" : 20798214,
       "ingresos" : 50000,
       "provincia" : "CABA",
+      "exp": "Me fue bárbaro con PrestaMITO, cumplieron todo lo que dicen.",
       "mail" : "gomezoscar1@hotmail.com"
 	
     },
@@ -45,6 +48,7 @@
       "dni" : 25123456,
       "ingresos" : 98000,
       "provincia" : "CABA",
+      "exp": "Me pude comprar la compu para anotarme en Codo a Codo",
       "mail" : "mimicoscarello@hotmail.com"
 	
     },
@@ -56,6 +60,7 @@
       "dni" : 30728569,
       "ingresos" : 100000,
       "provincia" : "Buenos Aires",
+      "exp": "Cuando me atrase en el pago me entendieron y me refinanciaron.",
       "mail" : "fedecomputacion@yahoo.com.ar"
 	
     },
@@ -67,6 +72,7 @@
       "dni" : 24746561,
       "ingresos" : 110000,
       "provincia" : "Chaco",
+      "exp": "Me ayudaron cuando tuve que operarme de emergencia, me salvaron!!!",
       "mail" : "minoviabonita@gmail.com"
 	
     },
@@ -78,6 +84,7 @@
       "dni" : 37582147,
       "ingresos" : 135000,
       "provincia" : "Neuquén",
+      "exp": "A mi me fue todo bien, yo lo recomiendo.",
       "mail" : "julilamejor91@gmail.com"
 	
     },
@@ -89,6 +96,7 @@
       "dni" : 23578461,
       "ingresos" : 71000,
       "provincia" : "Buenos Aires",
+      "exp": "Con lo que me prestaron pude terminar de arreglar mi casa, buenísimo!",
       "mail" : "pedrodelvalle123@hotmail.com"
 	
     },
@@ -100,6 +108,7 @@
       "dni" : 295473147,
       "ingresos" : 86000,
       "provincia" : "Entre Ríos",
+      "exp": "Todo de diez!!",
       "mail" : "aleconcordia@hotmail.com"
 	
     },
@@ -111,7 +120,9 @@
       "dni" : 35425178,
       "ingresos" : 105000,
       "provincia" : "Salta",
+      "exp": "Yo ya saqué tres préstamos, lo uso para pasar estos momentos difíciles.",
       "mail" : "tomycabj@gmail.com"
 	
-    },
+    }
   ]
+}
