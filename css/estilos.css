@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-/* que hace esto???*/
 .row:after {
   content: "";
   clear: both;
@@ -55,11 +54,12 @@ html {
   
 }
 
-body {
-  background-color: #077c8b
-}
+/*body {
+
+}*/
 
 body {
+    background-color: #097482;
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -121,3 +121,4 @@ a{
   padding: 10px;
   text-align: center;
 }
+

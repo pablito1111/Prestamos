@@ -64,7 +64,7 @@ fetch(url)
         console.log(clientes)
 
         let cad = `<div class="container">
-       `//arma la cadena para poner en el HTML virtual
+       `//armo la cadena para poner en el HTML virtual
         var aActual = (new Date()).getFullYear()
         for (x of clientes) {
             edad = aActual - parseInt(x.fechanacimiento.substr(6, 4))
