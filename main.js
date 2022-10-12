@@ -72,6 +72,7 @@ fetch(url)
             dniX = dniS.substr(0, 2) + "." + dniS.substr(2, 3) + ".xxx"
             cad += `<div class="tarjeta">
             <div class="cuerpo">
+                <img src="${x.imagen}" width="55%" height="300px">
                 <h4>Cliente: ${x.nombre} ${x.apellido}</h4>
                 <p>DNI: ${dniX}</p>
                 <p>Provincia: ${x.provincia}</p>
