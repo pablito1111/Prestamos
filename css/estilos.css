@@ -93,6 +93,8 @@ a{
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #6495ED;
+  justify-content: space-around;
+  border-radius: 1%;
 }
 .sucursales > div {
   background-color: #f1f1f1;
@@ -116,7 +118,9 @@ a{
 .cuerpo{
   padding: 10px;
   text-align: center;
-}
+  
+  }
+
 .containerTabla{
   padding: 20px;
 }
@@ -130,4 +134,8 @@ a{
 }
 #borrar{
   background-color: red;
+}
+#foto{
+  width: 55%;
+  object-fit: scale-down;
 }
