@@ -55,8 +55,6 @@ html {
  }
 body {
   background-color: #066b79;
-    /*margin: 0;*/
-
 }
 .menu ul {
   list-style-type: none;
@@ -137,6 +135,7 @@ a{
 .containerFormulario{
 width:80%;
 padding-left: 10%;
+color: white;
 }
 .col-requisitos{
   padding-left:10%;
@@ -144,4 +143,11 @@ padding-left: 10%;
 }
 .inicial{
   background-image: url(billetes.jpg);
+  background-size:100%;
+}
+.texto{
+  color: white;
+}
+.containerTabla{
+  color:white;
 }

@@ -63,8 +63,7 @@
                     <label for="ingresos" class="form-label">Ingresos</label>
                     <input type="number" class="form-control" name="ingresos" id="ingresos" aria-describedby="helpId"
                         placeholder="Sueldo Neto del Último Mes">
-                    <!--<div id="fileHelpId" class="form-text">No acepta decimales</div>-->
-
+                    
                     <label for="" class="form-label">Provincia</label>
                     <select class="form-select form-select-lg" name="" id="provincia">
                         <option selected>Selecciona una</option>
@@ -104,37 +103,15 @@
                     <br>
 
                     <label for="recibosueldo" class="form-label">Envianos tu último recibo de sueldo</label>
-                    <input type="file" class="form-control" name="recibosueldo" id="recibossueldo"
-                        placeholder="Archivos PGN/JPG" aria-describedby="fileHelpId">
-                    <div id="fileHelpId" class="form-text">Archivos PGN/JPG</div>
-
+                    <input type="file" class="form-control" name="recibosueldo" id="recibossueldo" placeholder=""
+                        aria-describedby="fileHelpId">
+                    <br>
                     <input type="submit" value="Enviar" onclick="validar()" id="enviar">
                     <input type="reset" value="Borrar" onclick="limpiar()" id="borrar">
                     <br><br>
                 </div>
                 <div id="PlaInt">
                 </div>
-                <!-- <div class="containerTabla">
-                 <h3>Plazos e Intereses</h3>
-                    <table class="table table-striped table-bordered table-sm">
-                        <tr>
-                            <th>Días</th>
-                            <th>Interés</th>
-                        </tr>
-                        <tr>
-                            <td>30</td>
-                            <td>15%</td>
-                        </tr>
-                        <tr>
-                            <td>60</td>
-                            <td>35%</td>
-                        </tr>
-                        <tr>
-                            <td>180</td>
-                            <td>70%</td>
-                        </tr>
-                    </table>
-                </div> -->
             </div>
     </main>
     <footer>
@@ -142,4 +119,5 @@
     </footer>
     <script src="./main.js"></script>
 </body>
+
 </html>

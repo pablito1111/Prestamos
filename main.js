@@ -103,7 +103,7 @@ pieDePagina=`<div class="footer">
 <a target="-blank" href="https://api.whatsapp.com/send?phone=0123456789">
     <img src="./imagenes/whatsapp.png" alt="Whatsapp">
 </a>
-<p>&copy Copyright 2022 by Laura Moggia & Pablo Chini</p>
+<p>&copy Copyright 2022 by Laura Moggia, Pablo Chini, Roxanna Niño Rendon</p>
 </div>`
 document.getElementById("pie").innerHTML=pieDePagina
 
@@ -113,22 +113,22 @@ var mAct = 1 + fecha.getMonth()
 var dAct = fecha.getDate()
 PlaInt=`<div class="containerTabla">                   
 <h3>Plazos e Intereses</h3><h6>(vigentes al ${dAct} - ${mAct} - ${aAct})</h6>
-<table class="table table-striped table-bordered table-sm">
+<table class="table table-striped table-dark table-bordered table-sm">
     <tr>
-        <th>Días</th>
-        <th>Interés</th>
+        <th><center>Días</center></th>
+        <th><center>Interés</center></th>
     </tr>
     <tr>
-        <td>30</td>
-        <td>15%</td>
+        <td><center>30</center></td>
+        <td><center>15%</center></td>
     </tr>
     <tr>
-        <td>60</td>
-        <td>35%</td>
+        <td><center>60</center></td>
+        <td><center>35%</center></td>
     </tr>
     <tr>
-        <td>180</td>
-        <td>70%</td>
+        <td><center>180</center></td>
+        <td><center>70%</center></td>
     </tr>
 </table>
 </div>)`
