@@ -29,10 +29,12 @@ Pablo: Hola! 10/10
 - El BOOTSTRAP del formulario hace que no funcione bien el menu en esa página cuando se achica a formato celular, pueden reverlo?
 - Les pido PORFA que no toquen mucho el JS, me costo un monton de tiempo la logica.
 
+Laura: Hola! 16/10
 -anteriormente le puse fondo al body
 -agregué video de youtube>(ahora funciona)
 -puse fotos al JSON
 -tengo el VUE pero hay que modificar todo ya que las tarjetas van en HTML y se desconfigura todo. Paso código:
+
 JS
 const { createApp } = Vue  //creo un objeto VUE llamdo createApp
 
