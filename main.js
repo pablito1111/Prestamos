@@ -106,3 +106,30 @@ pieDePagina=`<div class="footer">
 <p>&copy Copyright 2022 by Laura Moggia & Pablo Chini</p>
 </div>`
 document.getElementById("pie").innerHTML=pieDePagina
+
+var fecha = new Date()
+var aAct = fecha.getFullYear()
+var mAct = 1 + fecha.getMonth()
+var dAct = fecha.getDate()
+PlaInt=`<div class="containerTabla">                   
+<h3>Plazos e Intereses</h3><h6>(vigentes al ${dAct} - ${mAct} - ${aAct})</h6>
+<table class="table table-striped table-bordered table-sm">
+    <tr>
+        <th>Días</th>
+        <th>Interés</th>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>15%</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>35%</td>
+    </tr>
+    <tr>
+        <td>180</td>
+        <td>70%</td>
+    </tr>
+</table>
+</div>)`
+document.getElementById("PlaInt").innerHTML=PlaInt
