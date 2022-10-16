@@ -64,7 +64,7 @@ fetch(url)
         console.log(clientes)
 
         let cad = `<div class="container">
-       `//arma la cadena para poner en el HTML virtual
+       `//armo la cadena para poner en el HTML manipulado
         var aActual = (new Date()).getFullYear()
         for (x of clientes) {
             edad = aActual - parseInt(x.fechanacimiento.substr(6, 4))
@@ -72,7 +72,7 @@ fetch(url)
             dniX = dniS.substr(0, 2) + "." + dniS.substr(2, 3) + ".xxx"
             cad += `<div class="tarjeta">
             <div class="cuerpo">
-                <img src="${x.imagen}" width="55%" height="300px">
+                <img src="${x.imagen}" id="foto">
                 <h4>Cliente: ${x.nombre} ${x.apellido}</h4>
                 <p>DNI: ${dniX}</p>
                 <p>Provincia: ${x.provincia}</p>
@@ -89,3 +89,20 @@ fetch(url)
 
     }
     )
+pieDePagina=`<div class="footer">
+<P>Seguinos</P>
+<a target="_blank" href="https://facebook.com">
+    <img src="./imagenes/facebook.png" alt="Facebook">
+</a>
+<a target="_blank" href="https://www.instagram.com">
+    <img src="./imagenes/instagram.png" alt="Instagram">
+</a>
+<a target="-blank" href="https://twitter.com/">
+    <img src="./imagenes/gorjeo.png" alt="Twitter">
+</a>
+<a target="-blank" href="https://api.whatsapp.com/send?phone=0123456789">
+    <img src="./imagenes/whatsapp.png" alt="Whatsapp">
+</a>
+<p>&copy Copyright 2022 by Laura Moggia & Pablo Chini</p>
+</div>`
+document.getElementById("pie").innerHTML=pieDePagina
