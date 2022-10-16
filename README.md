@@ -28,3 +28,74 @@ Pablo: Hola! 10/10
 - Recorte un poco la foto de pantalla de inicio, para tratar de que quede algo mejor.
 - El BOOTSTRAP del formulario hace que no funcione bien el menu en esa página cuando se achica a formato celular, pueden reverlo?
 - Les pido PORFA que no toquen mucho el JS, me costo un monton de tiempo la logica.
+
+Laura: Hola! 16/10
+-anteriormente le puse fondo al body
+-agregué video de youtube>(ahora funciona)
+-puse fotos al JSON
+-tengo el VUE pero hay que modificar todo ya que las tarjetas van en HTML y se desconfigura todo. Paso código:
+
+JS
+const { createApp } = Vue  //creo un objeto VUE llamdo createApp
+
+  createApp({
+    data() {
+      return {
+       
+        url:'./datos.json',
+        clientes:[]
+      } 
+    },   
+    methods: {
+      fetchData(url) {
+
+          fetch(url)
+              .then(response => response.json())
+              .then(data => { 
+                  this.clientes=data.clientes  //guarda en el array drinks lo obtenido del json del atributo 
+                  console.log(this.clientes)
+
+    created(){
+
+      this.fetchData(this.url) 
+    }
+
+    
+  }).mount('#app')
+
+HTML
+<div id="app">
+                 <div class="container">
+       //armo la cadena para poner en el HTML manipulado
+        var aActual = (new Date()).getFullYear()
+         <tr v-for="x in clientes"
+            edad = aActual - parseInt(x.fechanacimiento.substr(6, 4))
+            dniS = String(x.dni)
+            dniX = dniS.substr(0, 2) + "." + dniS.substr(2, 3) + ".xxx"
+            <div class="tarjeta">
+            <div class="cuerpo">
+                <img src="${x.imagen}" id="foto">
+                <h4>Cliente: ${x.nombre} ${x.apellido}</h4>
+                <p>DNI: ${dniX}</p>
+                <p>Provincia: ${x.provincia}</p>
+                <p>Edad: ${edad} años</p>
+                <h4>Experiencia: ${x.exp}</h4>
+            </div>
+        </div>
+    
+        </tr>
+        
+        </div>
+
+        </div>
+esto no va:
+            // le agrego el cierre de la etiqueta div
+        console.log(cad)
+        document.getElementById("tarjetas").innerHTML = cad
+
+    }
+    )
+
+-OJO con los cambios que hagamos, se generó conflicto y me duplicó el home
+
+FALTA: ver si la foto del header puede quedar mejor y ver como viene la estética aunque me parece que esta correcta. 
