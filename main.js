@@ -91,20 +91,22 @@ fetch(url)
     )
 pieDePagina=`<div class="footer">
 <P>Seguinos</P>
+        
 <a target="_blank" href="https://facebook.com">
-    <img src="./imagenes/facebook.png" alt="Facebook">
+    <img class='zoomIt' src="./imagenes/facebook.png" alt="Facebook">
 </a>
 <a target="_blank" href="https://www.instagram.com">
-    <img src="./imagenes/instagram.png" alt="Instagram">
+    <img class='zoomIt' src="./imagenes/instagram.png" alt="Instagram">
 </a>
 <a target="-blank" href="https://twitter.com/">
-    <img src="./imagenes/gorjeo.png" alt="Twitter">
+    <img class='zoomIt' src="./imagenes/gorjeo.png" alt="Twitter">
 </a>
 <a target="-blank" href="https://api.whatsapp.com/send?phone=0123456789">
-    <img src="./imagenes/whatsapp.png" alt="Whatsapp">
+    <img class='zoomIt' src="./imagenes/whatsapp.png" alt="Whatsapp">
 </a>
-<p>&copy Copyright 2022 by Laura Moggia, Pablo Chini, Roxanna Niño Rendon</p>
-</div>`
+<p>&copy Copyright 2022 by Laura Moggia y Pablo Chini</p>
+</div>
+`
 document.getElementById("pie").innerHTML=pieDePagina
 
 var fecha = new Date()

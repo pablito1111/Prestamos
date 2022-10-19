@@ -99,3 +99,12 @@ esto no va:
 -OJO con los cambios que hagamos, se generó conflicto y me duplicó el home
 
 FALTA: ver si la foto del header puede quedar mejor y ver como viene la estética aunque me parece que esta correcta. 
+
+Laura: Hola!19/10
+-puse zoom en los iconos cuando pasas con el cursor
+-arreglé en la página de direcciones que no aparecía el logo
+-modifiqué la imagen del header y cree otra que es más responsiva, la probé y el texto queda siempre centrado. 
+Dejé las demás imagenes para que veas si te gusta(esta en css)..si queda así tendriamos que borrar las imágenes que no usamos así queda todo ordenado. 
+El código de la imagén lo pasé a estilos css así queda menos en html, esta como class fondo. 
+-Le puse al body margin 0 y padding 0 porque se veia el body arriba del header y no quedaba bien. 
+Por lo que ví, esta perfecto para entregar así...que team!!:)

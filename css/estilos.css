@@ -46,15 +46,25 @@ html {
 }
 .header {
   color: #0a0303;
-  padding: 25px;
+  padding: 10px;
   background:linear-gradient(#6495ED, #B0C4DE);
   text-shadow: 3px 3px 6px rgb(49, 49, 183);
   text-align:center;
   font-family: 'Dancing Script', cursive;
   font-weight: 900;
  }
+ .fondo {
+  background: url("./fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  
+}
 body {
   background-color: #066b79;
+  margin: 0;
+  padding:0;
 }
 .menu ul {
   list-style-type: none;
@@ -78,10 +88,19 @@ body {
   padding: 15px;
 }
 .footer img{
+  text-align: center;
   width: 50px;
   padding: 0px 5px;
 }
-a{
+ /*al pasar con el cursor se hacen más grandes los iconos*/
+  .zoomIt:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
+  }
+  a{
   text-decoration: none;
 }
 .sucursales{
