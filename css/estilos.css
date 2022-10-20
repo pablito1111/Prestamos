@@ -59,7 +59,6 @@ html {
   background-repeat: no-repeat;
   background-position: center center;
   height: 300px;
-  
 }
 body {
   background-color: #066b79;
@@ -112,7 +111,7 @@ body {
   border-radius: 1%;
 }
 .sucursales > div {
-  background-color:#6495ED;/*saque el blanco*/
+  background-color:#6495ED;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
@@ -136,7 +135,6 @@ body {
 .containerTabla{
   padding-left: 10%;
   width:80%;
-  
 }
 #enviar, #borrar{
   width: 80px;
