@@ -104,7 +104,7 @@ pieDePagina=`<div class="footer">
 <a target="-blank" href="https://api.whatsapp.com/send?phone=0123456789">
     <img class='zoomIt' src="./imagenes/whatsapp.png" alt="WhatsApp">
 </a>
-<p>&copy Copyright 2022 by Laura Moggia y Pablo Chini</p>
+<p>&copy Copyright 2022 by Laura Moggia - Pablo Chini - Patricia Heredia</p>
 </div>
 `
 document.getElementById("pie").innerHTML=pieDePagina

@@ -1,5 +1,5 @@
 Comision 22521
-Laura Moggia, Pablo Chini.
+Laura Moggia, Pablo Chini, Patricia Heredia
 RESUMEN DE REQUERIMIENTOS DEL TPO:
 1) Paginas HTML: tiene 5, con etiquetas semánticas.
 2) Formulario (registro.html) con validación en JS.
