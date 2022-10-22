@@ -33,7 +33,8 @@ function validar() {
     if ((nom != "") && (ape != "") && (doc < 100000000 && doc > 0) && (ing != 00) && (pro !== "Selecciona una") &&
         (ema === ema2) && (fec.substr(0, 4) !== "") && (fec.substr(5, 2) !== "") && (fec.substr(8, 2) !== "") &&
         !(((aAct - aNac) > 80) || ((aAct - aNac) == 80) && (mAct >= mNac)) && !(((aAct - aNac) < 18) || ((aAct - aNac) == 18) && (mAct < mNac)))
-        alert("* SU SOLICITUD SE HA ENVIADO CORRECTAMENTE * Nos comunicaremos via email dentro de las próximas 48hs.")
+        {alert("* SU SOLICITUD SE HA ENVIADO CORRECTAMENTE * Nos comunicaremos via email dentro de las próximas 48hs.")
+        limpiar()}
 }
 function limpiar() {
     document.getElementById("nombre").value = ""
